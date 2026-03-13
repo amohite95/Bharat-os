@@ -1,0 +1,9 @@
+{
+  "enterprise": "am_labs",
+  "owner": "amohite95@gmail.com",
+  "active_bots": [
+    {"id": "bot_research_01", "status": "initializing", "target": "LeadGen"},
+    {"id": "bot_finance_01", "status": "initializing", "target": "Payouts"}
+  ],
+  "payout_vault": "Canara_Bank_Current"
+}
