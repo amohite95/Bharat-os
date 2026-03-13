@@ -1,0 +1,21 @@
+name: am_labs Autonomous Cloud Node
+on:
+  push:
+    branches: [ main, master ]
+  schedule:
+    - cron: '0 * * * *' # Runs every hour automatically
+
+jobs:
+  run-heartbeat:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.9'
+      - name: Initialize am_labs Core
+        run: |
+          python core_engine.py &
+          sleep 10
+          echo "Cloud Node pulsing for amohite95@gmail.com"

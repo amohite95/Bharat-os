@@ -1,0 +1,32 @@
+import time
+import os
+
+def boot_sequence():
+    os.system('clear')
+    print("==================================================")
+    print("       Bharat-os // CORE ENGINE INITIALIZED       ")
+    print("==================================================")
+    print(" Admin ID : amohite95@gmail.com")
+    print(" Hardware : Samsung S25 (Local Node)")
+    print(" Location : Kolhapur, MH")
+    print("==================================================")
+    
+    print("\n[+] Booting system architecture...")
+    time.sleep(1.5)
+    print("[+] Securing local environment...")
+    time.sleep(1.5)
+    print("[+] Connecting to am_labs master protocols...\n")
+    time.sleep(1)
+    
+    cycle = 1
+    while True:
+        timestamp = time.strftime("%H:%M:%S")
+        print(f"[{timestamp}] Heartbeat {cycle} : Bharat-os is active and stable.")
+        time.sleep(3)
+        cycle += 1
+
+if __name__ == "__main__":
+    try:
+        boot_sequence()
+    except KeyboardInterrupt:
+        print("\n\n[!] CORE ENGINE TERMINATED BY CEO.")
