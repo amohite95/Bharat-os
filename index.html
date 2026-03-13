@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>am_labs HQ | Enterprise Monitor</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body { background-color: #0f172a; color: #f8fafc; font-family: sans-serif; }
+        .stat-card { background: #1e293b; border-radius: 12px; padding: 20px; border: 1px solid #334155; }
+        .pulse { animation: pulse 2s infinite; }
+        @keyframes pulse { 0% { opacity: 1; } 50% { opacity: 0.4; } 100% { opacity: 1; } }
+    </style>
+</head>
+<body class="p-6">
+    <header class="mb-8 flex justify-between items-center">
+        <div>
+            <h1 class="text-2xl font-bold text-blue-400">am_labs <span class="text-white font-light">HQ</span></h1>
+            <p class="text-sm text-slate-400">Service Account: amohite95@gmail.com</p>
+        </div>
+        <div class="h-3 w-3 bg-green-500 rounded-full pulse"></div>
+    </header>
+
+    <div class="grid gap-4">
+        <div class="stat-card">
+            <p class="text-xs text-slate-400 uppercase tracking-wider mb-1">Monthly Payout Target</p>
+            <h2 class="text-3xl font-bold text-white">₹1,00,000</h2>
+            <div class="w-full bg-slate-700 h-2 mt-4 rounded-full">
+                <div class="bg-blue-500 h-2 w-5 rounded-full"></div>
+            </div>
+            <p class="text-[10px] mt-2 text-slate-500">Infrastructure: Bharat-os v1.0 (Cloud)</p>
+        </div>
+
+        <div class="grid grid-cols-2 gap-4">
+            <div class="stat-card text-center">
+                <p class="text-[10px] text-slate-400 uppercase">Cloud Node</p>
+                <p class="text-lg font-semibold text-green-400">ACTIVE</p>
+            </div>
+            <div class="stat-card text-center">
+                <p class="text-[10px] text-slate-400 uppercase">API Link</p>
+                <p class="text-lg font-semibold text-blue-400">SECURE</p>
+            </div>
+        </div>
+
+        <div class="stat-card">
+            <p class="text-xs text-slate-400 mb-3">Autonomous Log (BOM-Mumbai)</p>
+            <div class="text-[11px] font-mono space-y-1 text-slate-300">
+                <p>> [SYSTEM] Cloud handshake verified.</p>
+                <p>> [AUTH] Signatory: amohite95 verified.</p>
+                <p class="text-blue-400">> [INFO] Standing by for next revenue trigger...</p>
+            </div>
+        </div>
+    </div>
+
+    <footer class="mt-8 text-center">
+        <button onclick="alert('Login Redirecting to Google Service Account...')" class="bg-blue-600 hover:bg-blue-500 text-white text-sm font-semibold py-3 px-8 rounded-lg w-full transition">
+            Access Secure Management
+        </button>
+    </footer>
+</body>
+</html>
