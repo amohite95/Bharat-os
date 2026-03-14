@@ -17,3 +17,4 @@ This repository contains the core operational infrastructure for `am_labs`, buil
 - Legal Entity: Udyam "Single Window" pending Aadhaar mobile linkage.
 
 *Deployed autonomously via Termux environment. March 2026.*
+[![Pulse Check](https://github.com/amohite95/Bharat-os/actions/workflows/pulse.yml/badge.svg)](https://github.com/amohite95/Bharat-os/actions)
