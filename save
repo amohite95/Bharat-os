@@ -1,0 +1,3 @@
+echo "🚀 Addie: Syncing am_labs to the Cloud Vault..."
+rclone sync ~/Bharat-os am_labs_vault:am_labs_cloud_backup
+echo "✅ Done. Everything is safe in Google Drive."

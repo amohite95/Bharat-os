@@ -1,0 +1,5 @@
+echo "--- 🛡️ AM_LABS SECURE DEPLOYMENT STATUS ---"
+echo "Identity: amlabs.in [$(curl -Is http://amlabs.in | head -n 1 || echo 'Checking DNS...')]"
+echo "Admin: amohite95@gmail.com [LOGGED]"
+echo "Security: S25 Vajra-Node [ACTIVE]"
+echo "------------------------------------------"

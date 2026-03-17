@@ -1,17 +1,25 @@
 name: Bharat-OS-24-7
 on:
   schedule:
+    - cron: "0 0 * * *"
+  schedule:
     - cron: '*/30 * * * *'
+  schedule:
+    - cron: "0 0 * * *"
   workflow_dispatch:
 jobs:
   run-indra:
     runs-on: ubuntu-latest
+  schedule:
+    - cron: "0 0 * * *"
     steps:
       - uses: actions/checkout@v4
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
           node-version: '20'
+  schedule:
+    - cron: "0 0 * * *"
       - run: npm install @supabase/supabase-js axios dotenv
       - name: Run Sovereign Kernel
         env:
