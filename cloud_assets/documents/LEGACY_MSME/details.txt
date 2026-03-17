@@ -1,0 +1,11 @@
+--------------------------------------
+OFFICIAL IDENTITY: amohite95@gmail.com
+--------------------------------------
+CURRENT_STATUS: MSME_LOGGED
+OLD_UDYAM_NO: [WAITING_FOR_INPUT]
+OLD_ENTITY_NAME: [WAITING_FOR_INPUT]
+--------------------------------------
+TARGET_UNIT: am_Labs
+TARGET_NIC_CODE: 62011 / 72100
+TARGET_BANK: CANARA BANK
+--------------------------------------

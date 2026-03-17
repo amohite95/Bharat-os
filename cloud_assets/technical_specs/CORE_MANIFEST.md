@@ -1,0 +1,5 @@
+# AM_LABS CORE MANIFEST
+- DOMAIN: amlabs.in
+- SERVICE_ACCOUNT: amohite95@gmail.com
+- PAYMENT_GATEWAY: 8999979694@upi
+- NODE: Samsung S25 (Vajra-01)
