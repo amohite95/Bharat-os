@@ -1,0 +1,6 @@
+*.prod.cloud.netflix.com
+*.airbnb.com
+*.airbnb.org
+*.musta.ch
+*.aswatson.com
+*.watsons.com.hk
