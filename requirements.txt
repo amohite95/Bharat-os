@@ -1,2 +1,4 @@
 flask
 requests
+cai-framework>=0.6.0
+openai-agents-sdk
