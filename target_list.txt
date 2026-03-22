@@ -4,3 +4,6 @@
 *.musta.ch
 *.aswatson.com
 *.watsons.com.hk
+*.prod.cloud.netflix.com
+*.prod.ftl.netflix.com
+api-public.netflix.com
